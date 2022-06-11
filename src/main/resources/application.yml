@@ -1,0 +1,12 @@
+server:
+  address: 127.0.0.1
+  port: 8080
+  
+spring.mvc.servlet.path: /mancala
+
+springdoc:
+  api-docs.path: /api-docs
+  swagger-ui.path: /swagger-ui.html
+
+min.inactive.minutes: 10
+max.amount.active.games: 10
